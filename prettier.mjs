@@ -1,0 +1,15 @@
+const prettierConfig = {
+  tabWidth: 2,
+  useTabs: false,
+  printWidth: 80,
+  singleQuote: true,
+  trailingComma: 'all',
+  bracketSpacing: true,
+  bracketSameLine: false,
+  jsxBracketSameLine: false,
+  semi: true,
+  arrowParens: 'always',
+  endOfLine: 'auto',
+};
+
+export default prettierConfig;
