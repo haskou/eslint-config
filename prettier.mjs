@@ -3,13 +3,13 @@ const prettierConfig = {
   useTabs: false,
   printWidth: 80,
   singleQuote: true,
-  trailingComma: 'all',
+  trailingComma: "all",
   bracketSpacing: true,
   bracketSameLine: false,
   jsxBracketSameLine: false,
   semi: true,
-  arrowParens: 'always',
-  endOfLine: 'auto',
+  arrowParens: "always",
+  endOfLine: "auto",
 };
 
 export default prettierConfig;

@@ -1,3 +1,3 @@
-import haskou from './index.mjs';
+import haskou from "./index.mjs";
 
 export default haskou;
