@@ -1,7 +1,7 @@
 {
   "name": "@haskou/eslint-config",
   "version": "0.1.1",
-  "description": "Bad code punishment for Haskou TypeScript projects.",
+  "description": "Shared ESLint and Prettier configuration for strict TypeScript projects",
   "type": "module",
   "license": "MIT",
   "author": "Haskou",
