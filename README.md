@@ -1,5 +1,10 @@
 # @haskou/eslint-config
 
+[![CI](https://github.com/haskou/eslint-config/actions/workflows/ci.yml/badge.svg)](https://github.com/haskou/eslint-config/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@haskou/eslint-config.svg)](https://www.npmjs.com/package/@haskou/eslint-config)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-1a1f6c.svg)](https://github.com/haskou/eslint-config/blob/main/renovate.json)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
 Shared ESLint flat config for TypeScript libraries using:
 
 - ESLint recommended rules
