@@ -2,7 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended", ":dependencyDashboard", ":semanticCommits"],
   "labels": ["dependencies"],
-  "rangeStrategy": "bump",
   "semanticCommitType": "chore",
   "semanticCommitScope": "deps",
   "commitMessageAction": "\u2b06\ufe0f update",
@@ -10,6 +9,14 @@
     {
       "groupName": "non-major dependencies",
       "matchUpdateTypes": ["minor", "patch"]
+    },
+    {
+      "matchDepTypes": ["dependencies", "devDependencies", "optionalDependencies"],
+      "rangeStrategy": "bump"
+    },
+    {
+      "matchDepTypes": ["peerDependencies"],
+      "rangeStrategy": "widen"
     }
   ]
 }
