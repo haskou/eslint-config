@@ -38,7 +38,8 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "pack:dry": "npm pack --dry-run"
+    "pack:dry": "npm pack --dry-run",
+    "test": "node --test"
   },
   "peerDependencies": {
     "eslint": "^10.4.1",
